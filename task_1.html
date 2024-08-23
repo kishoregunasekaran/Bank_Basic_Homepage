@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-image:url("tn_natural.webp");
+            color: rgb(186, 37, 37);
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        nav {
+            background-color: #302a85;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 9px 30px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #4272d8;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            max-width: 50%;
+            height: auto;
+            display: block;
+            margin: 1px ;
+            display: center;
+        }
+        form {
+            margin: 20px 0;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #2b6d25;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #445dbe;
+        }
+        header img {
+            width: 90px; 
+            height: auto;
+            display:inline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="bank_1.png" alt="Bank Emblem">
+        <h1>ABC BANK OF INDIA</h1>
+    </header>
+    <nav>
+        <a href="#home" style="padding-left: 130px;">&nbsp;<center>Home</center></a>
+        <a href="#pay">Pay<br>
+        <p>(Cards, Bill Pay)</p></a>
+        <a href="#Save">Save<br>
+        <p>(Accounts, Deposits)</p></a>
+        <a href="#Invest">Invest
+            <br><p>(Bonds, Mutual Funds)</p>
+        </a>
+        <a href="#Borrow">Borrow<br>
+        <p>(Loans, EMI)</p></a>
+        <a href="#Insurance">Insure<br><p>(Health, Life)</p></a>
+        <a href="#about">About<br><p>(Info of bank)</p></a>
+        <a href="#contact">&nbsp;<center>Contact</center></a>
+    </nav>
+    <center>
+        <form>
+            <input type="text" placeholder="Search" required style="padding-right: 130px;">&nbsp;&nbsp;
+            <input type="submit" value="Submit">
+        </form>
+        </center>
+    <main><center>
+        <img src="bank_3.jpg" alt="Sample Image">
+    </center>
+    </main>
+
+</body>
+</html>
